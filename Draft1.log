@@ -1,0 +1,63 @@
+LTspice 24.1.4 for Windows
+Circuit: C:\Users\barsam\Documents\GitHub\electest\Draft1.net
+Start Time: Wed Sep 24 20:18:52 2025
+solver = Normal
+Maximum thread count: 4
+tnom = 27
+temp = 27
+method = trap
+WARNING: Node n002 is floating.
+WARNING: Node nc_01 is floating.
+WARNING: Node nc_02 is floating.
+
+Singular matrix:  Check node n004
+   Iteration No. 6
+Direct Newton iteration failed to find .op point.  (Use ".option noopiter" to skip.)
+Starting Gmin stepping
+Gmin = 10
+Gmin = 1.07374
+Gmin = 0.115292
+Gmin = 0.0123794
+Gmin = 0.00132923
+Gmin = 0.000142725
+Gmin = 1.5325e-05
+Gmin = 1.6455e-06
+vernier = 0.5
+vernier = 0.25
+vernier = 0.125
+Gmin = 1.18659e-06
+vernier = 0.0625
+vernier = 0.03125
+vernier = 0.015625
+Gmin = 1.10684e-06
+vernier = 0.0078125
+vernier = 0.00390625
+vernier = 0.00195312
+vernier = 0.000976562
+Gmin = 1.10522e-06
+vernier = 0.000488281
+Singular matrix:  Check node n002
+   Iteration No. 4
+Gmin = 0
+Singular matrix:  Check node n002
+   Iteration No. 1
+Gmin stepping failed
+
+Starting source stepping with srcstepmethod=0
+Source Step = 3.0303%
+Source Step = 12.1686%
+vernier = 0.00390625
+Source Step = 12.1567%
+Source Step = 12.1863%
+Starting source stepping with srcstepmethod=1
+Source Step = 3.0303%
+Source stepping failed
+
+Singular matrix:  Check node n004
+   Iteration No. 5
+Total elapsed time: 0.000 seconds.
+Singular matrix:  check node n004
+   Iteration No. 5
+
+This circuit has floating nodes.
+Try menu command View=>SPICE Error Log.
